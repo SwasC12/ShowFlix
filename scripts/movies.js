@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const movieContainer = document.getElementById("movieContainer");
 
     // Fetch JSON data
-    fetch("data_links/movies.json")
+    fetch("../data_link/movies.json")
         .then(response => response.json())
         .then(data => {
             // Iterate over each movie entry in the JSON data
