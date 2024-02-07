@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(21, 20, 20);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+@font-face {
+    font-family: 'sf-logo';
+    src: url('../assets/fonts/LEMONMILK-Bold.otf') format('openType');
+}
+
+@keyframes sf-anim {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+.center-content {
+    text-align: center;
+}
+
+#sf-logo{
+    font-family: 'sf-logo';
+    color: aliceblue;
+    font-size: 200px;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b, #ffeb7b, #ff7e5f);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: sf-anim 2s ease infinite;
+}
+
+#sub-heading{
+    font-family: 'sf-logo';
+    background: linear-gradient(45deg, #ff7e5f, #feb47b, #ffeb7b, #ff7e5f);
+    background-size: 400% 400%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

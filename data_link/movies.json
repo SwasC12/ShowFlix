@@ -1,0 +1,12 @@
+[{
+    "name": "Movie 1",
+    "embeddedLink": "https://www.youtube.com/embed/video_id_1"
+},
+{
+    "name": "Movie 2",
+    "embeddedLink": "https://www.youtube.com/embed/video_id_2"
+},
+{
+    "name": "Movie 3",
+    "embeddedLink": "https://www.youtube.com/embed/video_id_3"
+}]
