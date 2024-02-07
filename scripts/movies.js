@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 // Create a title element for the movie name
                 const title = document.createElement("h2");
                 title.textContent = movie.name;
+                title.classList.add("movie-title"); // Add a class to the title element
 
                 // Create an iframe for embedding the video
                 const iframe = document.createElement("iframe");

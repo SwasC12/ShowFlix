@@ -1,12 +1,36 @@
 [{
-    "name": "Movie 1",
-    "embeddedLink": "https://www.youtube.com/embed/video_id_1"
+    "name": "THE CHAIR",
+    "embeddedLink": "https://www.youtube.com/embed/mhazCS14Tas?si=lyxnS412L3T4YR0x"
 },
 {
-    "name": "Movie 2",
-    "embeddedLink": "https://www.youtube.com/embed/video_id_2"
+    "name": "Flight42 -Back to hell!",
+    "embeddedLink": "https://www.youtube.com/embed/SU9vobpuR4E?si=LlPiVeBtFWdp1OyS"
 },
 {
-    "name": "Movie 3",
-    "embeddedLink": "https://www.youtube.com/embed/video_id_3"
+    "name": "Teenage Bank Heist",
+    "embeddedLink": "https://www.youtube.com/embed/41KimZRIMCI?si=PFyNTMYs6uxXXOKg"
+},
+{
+    "name": "Defile",
+    "embeddedLink": "https://www.youtube.com/embed/2U9qkfHkedw?si=1rL-kyT1izr9AiUM"
+},
+{
+    "name": "Hyena Road",
+    "embeddedLink": "https://www.youtube.com/embed/AWuxeDm1SGA?si=3Yll9_UpZltrk7uZ"
+},
+{
+    "name": "Extortion",
+    "embeddedLink": "https://www.youtube.com/embed/Lpw02_63wig?si=Y_E8zKBIACOo3Eth"
+},
+{
+    "name": "Russian Fury",
+    "embeddedLink": "https://www.youtube.com/embed/A4yClBq7xpY?si=7E-_fHlvtM1X_iON"
+},
+{
+    "name": "The Good, The bad and the ugly",
+    "embeddedLink": "https://www.youtube.com/embed/4oCdwxmeM2A?si=DJmruw4P1G1NZdaE"
+},
+{
+    "name": "Blood and Bones",
+    "embeddedLink": "https://www.youtube.com/embed/H1XxUZAOT34?si=BGaNua0IUcXwZLrq"
 }]
