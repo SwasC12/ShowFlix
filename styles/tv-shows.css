@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(21, 20, 20);
+}
+
+@font-face {
+    font-family: 'tv';
+    src: url('../assets/fonts/BebasNeue-Regular.ttf') format('trueType');
+}
+
+#origin{
+    font-family: 'tv';
+    color: rgb(142, 75, 205);
+    font-size: 80px;
+}
