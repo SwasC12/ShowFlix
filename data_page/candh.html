@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/candh.css">
+    <title>Cyanide and Happiness</title>
+</head>
+<body>
+    <div id="candhContainer"></div>
+    <script>
+        // Fetch JSON data and create movie cards
+        fetch('../data_link/candh.json') // Assuming the JSON file is in the 'data_links' folder
+            .then(response => response.json())
+            .then(data => {
+                const movieContainer = document.getElementById('candhContainer');
+                data.forEach(episode => {
+                    const card = document.createElement('div');
+                    card.classList.add('card');
+                    card.innerHTML = `
+                        <h2>${episode.name}</h2>
+                        <iframe width="560" height="315" src="${episode.embeddedLink}" frameborder="0" allowfullscreen></iframe>
+                    `;
+                    movieContainer.appendChild(card);
+                });
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+    </script>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 SHOWFLIX. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+
+</html>
